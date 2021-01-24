@@ -1,0 +1,195 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="I-E-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <script src="my.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //     $('.toggle-button').click(function () {
+        //         console.log('kkkk')
+        //         $('.navbar-links').show();
+        //         // $('navbar-links').hide();
+        //     });
+        // });
+
+
+        // mybutton=document.getElementById("mybtn");
+        // window.onscroll=function(){scrollFunction()};
+        // function scrollFunction(){
+        //     if(document.body.scrollTop > 20 || document.documentElement.scrollTop >20){
+        //         mybutton.style.display="block";
+
+        //     }
+        //     else{
+        //         mybutton.display="none";
+        //     }
+        // }
+
+
+
+        function topFunction() {
+            // const = mybutton;
+            document.body.scrollTop = 0;// for safari
+            document.documentElement.scrollTop = 0;
+
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <script>
+        const typed = new Typed('.element', {
+            strings: ['Professional', 'Modern', 'Fully Functional', 'Website'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true,
+        });
+    </script>
+
+    <div class="main_screen">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-links">
+            <a class="navbar-brand" id="brand-title">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Skill</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <section id="banner">
+            <div class="banner-section">
+                <div id="banner-content">
+                    <h1>Welcome To My Portfolio</h1>
+                    <!-- <strong>We Provide you Professional Website <span class="element"></span></strong> -->
+                    <p>We Provide you Professional and Responsive website design</p>
+                    <!-- <button id="primary-button">getting touch</button> -->
+
+                    <h7 href="#banner-content" class="primary-button">Getting Touch</h7>
+                </div>
+        </section>
+    </div>
+    <section>
+        <div id="about">
+            <div class="about-content">
+                <div class="son">
+                    <span>Hi I'm Shashi Prakash</span>
+
+                    <h1>Web Developer and Somewhere.</h1>
+                </div>
+                <div class="about-image">
+                    <img src="/images/my_pic.jpg" alt="pic">
+                </div>
+            </div>
+            <div id="education">
+                <div class="container">
+                    <div id="box">
+                        <div class="icon" id="fas fa-graduation-cap">01</div>
+                        <div class="content">
+                            <h3>Qualification</h3>
+                            <ul>
+                                <li>10th</li>
+                                <li>Intermediate</li>
+                                <li>Graduation</li>
+                                <li>Post Graduation</li>
+                            </ul>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div id="box">
+                        <div class="icon">02</div>
+                        <div class="content">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>C Language</li>
+                                <li>Core Java</li>
+                                <li>Javascript</li>
+                                <li>Node.js</li>
+                            </ul>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div id="box">
+                        <div class="icon">03</div>
+                        <div class="content">
+                            <h3>Projects</h3>
+                            <ul>
+                                <li>My Portfolio</li>
+                                <li>Employee Todo Web</li>
+                                <li>Laptop Landing Page</li>
+                            </ul>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-section">
+            <div class="footer-content">
+                <h3>About My portFolio</h3>
+                <p>
+                    The world become so fast pasced that people
+                    don't want to stand by reading a page of information
+                    to be they would much rather look of a presentation
+                    and understand the message.
+                </p>
+
+            </div>
+
+            <div id="navigation-link">
+                <h3>Navigation Link</h3>
+                <ul>
+                    <li><a href="#navbar-links">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+
+            <div class="scrolltop float-right">
+                <i class="fa fa-arrow-up" oncliick="topFunction()" id="mybtn"></i>
+
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+</body>
+
+</html>
